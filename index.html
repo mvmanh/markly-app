@@ -8,6 +8,7 @@
 <link rel="icon" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
+<script>document.documentElement.className+=" js"</script>
 <script src="lang.js"></script>
 </head>
 <body data-tvi="Markly — Chấm trắc nghiệm bằng camera" data-ten="Markly — Grade multiple-choice tests with your camera">
@@ -23,42 +24,133 @@
 </div></header>
 
 <main>
-<div class="hero"><div class="wrap">
-  <img class="logo" src="icon-128.png" alt="Markly">
-  <h1><span data-l="vi">Chấm bài trắc nghiệm bằng camera điện thoại</span><span data-l="en">Grade multiple-choice tests with your phone camera</span></h1>
-  <p class="lead"><span data-l="vi">Tạo bài, in phiếu, quét từng tờ — điểm hiện ngay. Hoàn toàn offline, không tài khoản, dữ liệu chỉ nằm trên máy bạn.</span><span data-l="en">Create a test, print the sheets, scan them one by one — scores appear instantly. Fully offline, no account, your data stays on your device.</span></p>
-  <div class="btns">
-    <span class="soon"><span data-l="vi">Sắp có trên App Store và Google Play</span><span data-l="en">Coming soon to the App Store and Google Play</span></span>
+<div class="hero"><div class="wrap split">
+  <div class="txt">
+    <img class="logo" src="icon-128.png" alt="Markly" width="72" height="72">
+    <h1><span data-l="vi">Chấm bài trắc nghiệm bằng camera điện thoại</span><span data-l="en">Grade multiple-choice tests with your phone camera</span></h1>
+    <p class="lead"><span data-l="vi">Tạo bài, in phiếu, quét từng tờ — điểm hiện ngay. Hoàn toàn offline, không tài khoản, dữ liệu chỉ nằm trên máy bạn.</span><span data-l="en">Create a test, print the sheets, scan them one by one — scores appear instantly. Fully offline, no account, your data stays on your device.</span></p>
+    <div class="btns"><span class="soon"><span data-l="vi">Sắp có trên App Store và Google Play</span><span data-l="en">Coming soon to the App Store and Google Play</span></span><a class="btn" href="#features"><span data-l="vi">Xem tính năng</span><span data-l="en">See features</span></a></div>
+    <div class="badges"><span class="badge">iOS 17+</span><span class="badge">Android 8+</span><span class="badge">100% offline</span></div>
   </div>
-  <div class="badges"><span class="badge">iOS 17+</span><span class="badge">Android 8+</span><span class="badge">100% offline</span><span class="badge">English · Tiếng Việt · 简体中文 · Español · Português · 日本語 · Deutsch</span></div>
+  <figure class="shot"><div class="phone"><img src="shots/hero.png" width="1080" height="2340" alt="Markly home screen"></div></figure>
 </div></div>
 
-<section id="features"><div class="wrap">
-  <h2><span data-l="vi">Mọi thứ để chấm một kỳ thi</span><span data-l="en">Everything to grade an exam</span></h2>
-  <p class="sub"><span data-l="vi">Từ lúc in phiếu đến lúc có bảng điểm, không cần máy chấm chuyên dụng.</span><span data-l="en">From printing the sheets to the final score table, no dedicated scanner needed.</span></p>
+<div class="stats"><div class="wrap">
+  <div><b>100%</b><span><span data-l="vi">offline</span><span data-l="en">offline</span></span></div>
+  <div><b>0</b><span><span data-l="vi">tài khoản, quảng cáo, theo dõi</span><span data-l="en">accounts, ads or trackers</span></span></div>
+  <div><b>7</b><span><span data-l="vi">ngôn ngữ</span><span data-l="en">languages</span></span></div>
+  <div><b>iOS + Android</b><span><span data-l="vi">dùng chung một lõi chấm</span><span data-l="en">one shared grading engine</span></span></div>
+</div></div>
+
+<div id="features"></div>
+<section class="feat"><div class="wrap split">
+  <div class="txt reveal">
+    <span class="kicker"><span data-l="vi">Quét</span><span data-l="en">Scan</span></span>
+    <h2><span data-l="vi">Quét liên tục, điểm hiện ngay</span><span data-l="en">Continuous scanning, instant scores</span></h2>
+    <p class="sub"><span data-l="vi">Đưa từng phiếu vào camera — Markly đọc, chấm và lưu trong chưa đầy một giây, không cần bấm chụp.</span><span data-l="en">Hold each sheet to the camera — Markly reads, grades and saves it in under a second, no shutter button needed.</span></p>
+    <ul class="ticks">
+        <li><span data-l="vi">Hiện ô đang đọc ngay trên khung camera</span><span data-l="en">See the bubbles being read live on the camera view</span></li>
+        <li><span data-l="vi">Âm thanh và rung xác nhận (tùy chọn)</span><span data-l="en">Optional sound and haptic confirmation</span></li>
+        <li><span data-l="vi">Phiếu nghi ngờ tự vào hàng đợi “cần xem lại”</span><span data-l="en">Doubtful sheets go to a “needs review” queue automatically</span></li>
+        <li><span data-l="vi">Không có camera? Chấm hàng loạt từ ảnh hoặc PDF</span><span data-l="en">No camera? Grade in bulk from photos or PDFs</span></li>
+    </ul>
+  </div>
+  <figure class="shot reveal"><div class="phone"><img src="shots/scan.png" width="1080" height="2340" alt="Scanning a sheet with the camera" loading="lazy"></div></figure>
+</div></section>
+<section class="feat alt"><div class="wrap split flip">
+  <div class="txt reveal">
+    <span class="kicker"><span data-l="vi">In phiếu</span><span data-l="en">Print</span></span>
+    <h2><span data-l="vi">In phiếu đúng ý bạn</span><span data-l="en">Print sheets exactly your way</span></h2>
+    <p class="sub"><span data-l="vi">Tạo phiếu ngay trong app, in bằng máy in thường — không cần mua giấy chuyên dụng.</span><span data-l="en">Create sheets inside the app and print on any regular printer — no special paper.</span></p>
+    <ul class="ticks">
+        <li><span data-l="vi">Khổ A4, A5 hoặc 2 phiếu A5 trên một tờ A4</span><span data-l="en">A4, A5, or two A5 sheets per A4 page</span></li>
+        <li><span data-l="vi">In sẵn mã đề; bật/tắt ô Mã SV, Lớp, Mã đề</span><span data-l="en">Pre-printed version codes; toggle Student ID, Class and Version boxes</span></li>
+        <li><span data-l="vi">Mã QR trên phiếu không chứa đáp án hay tên sinh viên</span><span data-l="en">The QR code holds no answers or student names</span></li>
+        <li><span data-l="vi">Phiếu và tệp xuất theo ngôn ngữ bạn chọn</span><span data-l="en">Sheets and exports follow the language you choose</span></li>
+    </ul>
+  </div>
+  <figure class="shot reveal"><div class="phone"><img src="shots/print.png" width="1080" height="2340" alt="Print-ready answer sheet" loading="lazy"></div></figure>
+</div></section>
+<section class="feat"><div class="wrap split">
+  <div class="txt reveal">
+    <span class="kicker"><span data-l="vi">Đáp án & xem lại</span><span data-l="en">Answer key & review</span></span>
+    <h2><span data-l="vi">Nhập đáp án, xem lại từng bài</span><span data-l="en">Set the key, review every sheet</span></h2>
+    <p class="sub"><span data-l="vi">Sai đáp án? Sửa một lần, mọi bài đã quét tự chấm lại. Mọi bài đều giữ ảnh để đối chiếu.</span><span data-l="en">Wrong key? Fix it once and every scanned sheet regrades. Every sheet keeps its image for double-checking.</span></p>
+    <ul class="ticks">
+        <li><span data-l="vi">Nhập đáp án tay hoặc dùng một bài làm mẫu</span><span data-l="en">Type the key or use a sample answer sheet</span></li>
+        <li><span data-l="vi">Đổi đáp án, cho điểm lại — kết quả cập nhật ngay</span><span data-l="en">Change the key or re-weight a question — results update at once</span></li>
+        <li><span data-l="vi">Xem lại ảnh phiếu, sửa ô đọc sai, gắn tên sinh viên</span><span data-l="en">Open the sheet image, fix a misread bubble, assign the student</span></li>
+        <li><span data-l="vi">Lưu ảnh gốc để đối chiếu khi có thắc mắc (tùy chọn)</span><span data-l="en">Optionally keep the original photo for disputes</span></li>
+    </ul>
+  </div>
+  <figure class="shot reveal"><div class="phone"><img src="shots/review.png" width="1080" height="2340" alt="Answer key and review screen" loading="lazy"></div></figure>
+</div></section>
+<section class="feat alt"><div class="wrap split flip">
+  <div class="txt reveal">
+    <span class="kicker"><span data-l="vi">Lớp học & thống kê</span><span data-l="en">Classes & statistics</span></span>
+    <h2><span data-l="vi">Biết lớp học tốt ở đâu, yếu ở đâu</span><span data-l="en">See where the class is strong and weak</span></h2>
+    <p class="sub"><span data-l="vi">Sắp xếp theo học kỳ, môn và lớp; theo dõi tiến độ thu bài và xem thống kê từng câu hỏi.</span><span data-l="en">Organise by term, course and class; track submission progress and see per-question statistics.</span></p>
+    <ul class="ticks">
+        <li><span data-l="vi">Học kỳ → môn → lớp → sinh viên, nhập danh sách từ tệp</span><span data-l="en">Term → course → class → student, import rosters from files</span></li>
+        <li><span data-l="vi">Điểm trung bình, phân bố điểm, tỉ lệ đúng từng câu</span><span data-l="en">Average, score distribution, correct rate for every question</span></li>
+        <li><span data-l="vi">Theo dõi lớp nào đã nộp bao nhiêu bài</span><span data-l="en">See how many sheets each class has handed in</span></li>
+        <li><span data-l="vi">Xuất CSV/Excel và PDF theo bài hoặc theo nhóm</span><span data-l="en">Export CSV/Excel and PDF per test or per group</span></li>
+    </ul>
+  </div>
+  <figure class="shot reveal"><div class="phone"><img src="shots/stats.png" width="1080" height="2340" alt="Class statistics" loading="lazy"></div></figure>
+</div></section>
+<section class="feat"><div class="wrap split">
+  <div class="txt reveal">
+    <span class="kicker"><span data-l="vi">Web quản trị</span><span data-l="en">Web admin</span></span>
+    <h2><span data-l="vi">Quản lý trên máy tính, không cần cáp</span><span data-l="en">Manage from your computer, no cable</span></h2>
+    <p class="sub"><span data-l="vi">Bật một công tắc, mở địa chỉ trên trình duyệt máy tính cùng mạng WiFi, nhập PIN là xong.</span><span data-l="en">Flip one switch, open the address in a computer browser on the same WiFi, enter the PIN — done.</span></p>
+    <ul class="ticks">
+        <li><span data-l="vi">Sửa lớp, sinh viên, đáp án trên bàn phím lớn</span><span data-l="en">Edit classes, students and keys on a full keyboard</span></li>
+        <li><span data-l="vi">Có mã PIN; chỉ truy cập được trong mạng nội bộ</span><span data-l="en">PIN-protected; reachable only on your local network</span></li>
+        <li><span data-l="vi">Không có dữ liệu nào đi qua internet</span><span data-l="en">Nothing goes over the internet</span></li>
+    </ul>
+  </div>
+  <figure class="shot reveal"><div class="browser"><div class="bar"><i></i><i></i><i></i><span>192.168.1.20:8888</span></div><img src="shots/web.png" width="1600" height="1000" alt="Web admin in a browser" loading="lazy"></div></figure>
+</div></section>
+
+<section class="alt" id="more"><div class="wrap">
+  <h2><span data-l="vi">Và còn nhiều hơn thế</span><span data-l="en">And a lot more</span></h2>
+  <p class="sub"><span data-l="vi">Những chi tiết nhỏ giúp một kỳ thi trôi chảy.</span><span data-l="en">Small details that keep an exam day smooth.</span></p>
   <div class="grid">
-    <div class="card"><div class="ic">🖨️</div><h3><span data-l="vi">In phiếu sẵn sàng</span><span data-l="en">Print-ready sheets</span></h3><p><span data-l="vi">Phiếu A4, A5 hoặc 2 phiếu A5 trên một tờ A4; in sẵn mã đề, ô Mã SV/Lớp/Mã đề tùy chọn.</span><span data-l="en">A4, A5 or two A5 sheets per A4 page; pre-printed version codes and optional Student ID / Class / Version boxes.</span></p></div>
-    <div class="card"><div class="ic">📷</div><h3><span data-l="vi">Quét liên tục bằng camera</span><span data-l="en">Continuous camera scanning</span></h3><p><span data-l="vi">Đưa từng phiếu vào camera, điểm hiện ngay và tự lưu. Phiếu nghi ngờ được đưa vào hàng đợi xem lại.</span><span data-l="en">Hold each sheet to the camera: the score appears instantly and is saved. Doubtful sheets go to a review queue.</span></p></div>
-    <div class="card"><div class="ic">🗂️</div><h3><span data-l="vi">Ảnh và PDF</span><span data-l="en">Photos and PDFs</span></h3><p><span data-l="vi">Chấm hàng loạt từ ảnh hoặc PDF có sẵn khi không tiện dùng camera.</span><span data-l="en">Grade in bulk from existing photos or PDFs when the camera isn't convenient.</span></p></div>
-    <div class="card"><div class="ic">🎓</div><h3><span data-l="vi">Lớp, sinh viên, thống kê</span><span data-l="en">Classes, students, statistics</span></h3><p><span data-l="vi">Học kỳ → môn → lớp → sinh viên; nhập danh sách từ tệp, thống kê điểm và từng câu hỏi.</span><span data-l="en">Term → course → class → student; import rosters from files, see score and per-question statistics.</span></p></div>
-    <div class="card"><div class="ic">🔁</div><h3><span data-l="vi">Đổi đáp án, tự chấm lại</span><span data-l="en">Change the key, regrade automatically</span></h3><p><span data-l="vi">Sửa đáp án hoặc cho điểm lại, kết quả cập nhật cho toàn bộ bài đã quét.</span><span data-l="en">Edit the key or re-weight a question and every scanned sheet is updated.</span></p></div>
-    <div class="card"><div class="ic">📤</div><h3><span data-l="vi">Xuất kết quả</span><span data-l="en">Export results</span></h3><p><span data-l="vi">CSV/Excel và PDF, theo bài hoặc theo nhóm lớp.</span><span data-l="en">CSV/Excel and PDF, per test or per class group.</span></p></div>
-    <div class="card"><div class="ic">💻</div><h3><span data-l="vi">Web quản trị (tùy chọn)</span><span data-l="en">Web admin (optional)</span></h3><p><span data-l="vi">Quản lý dữ liệu từ trình duyệt trên máy tính cùng mạng WiFi, có mã PIN. Không qua internet.</span><span data-l="en">Manage your data from a computer browser on the same WiFi, PIN-protected. Nothing goes over the internet.</span></p></div>
-    <div class="card"><div class="ic">🔒</div><h3><span data-l="vi">Riêng tư tuyệt đối</span><span data-l="en">Private by design</span></h3><p><span data-l="vi">Không tài khoản, không quảng cáo, không theo dõi. Dữ liệu không rời khỏi máy.</span><span data-l="en">No account, no ads, no tracking. Your data never leaves your device.</span></p></div>
+    <div class="card reveal"><div class="ic">🧾</div><h3><span data-l="vi">Nhiều mã đề</span><span data-l="en">Multiple versions</span></h3><p><span data-l="vi">Xáo thứ tự câu/đáp án theo từng mã đề, tự nhận mã đề khi chấm.</span><span data-l="en">Shuffle questions and options per version; the version is recognised when grading.</span></p></div>
+    <div class="card reveal"><div class="ic">🔐</div><h3><span data-l="vi">Sao lưu có mật khẩu</span><span data-l="en">Password-protected backup</span></h3><p><span data-l="vi">Khôi phục được cả giữa iPhone và Android.</span><span data-l="en">Restore even between iPhone and Android.</span></p></div>
+    <div class="card reveal"><div class="ic">📺</div><h3><span data-l="vi">Cả Android TV</span><span data-l="en">Android TV too</span></h3><p><span data-l="vi">Chấm từ ảnh/PDF ngay trên TV hoặc máy tính bảng.</span><span data-l="en">Grade from photos/PDFs on a TV or tablet.</span></p></div>
+    <div class="card reveal"><div class="ic">🌍</div><h3><span data-l="vi">7 ngôn ngữ</span><span data-l="en">7 languages</span></h3><p><span data-l="vi">English, Tiếng Việt, 简体中文, Español, Português, 日本語, Deutsch.</span><span data-l="en">English, Tiếng Việt, 简体中文, Español, Português, 日本語, Deutsch.</span></p></div>
+    <div class="card reveal"><div class="ic">🗓️</div><h3><span data-l="vi">Phiên quét theo nhóm</span><span data-l="en">Scan sessions per group</span></h3><p><span data-l="vi">Mỗi lần quét gom theo bài và lớp, xem lại bất cứ lúc nào.</span><span data-l="en">Every scan run is grouped by test and class, ready to revisit.</span></p></div>
+    <div class="card reveal"><div class="ic">👥</div><h3><span data-l="vi">Nhập danh sách nhanh</span><span data-l="en">Quick roster import</span></h3><p><span data-l="vi">Nhập sinh viên từ tệp hoặc gõ tay.</span><span data-l="en">Import students from a file or type them in.</span></p></div>
+    <div class="card reveal"><div class="ic">📋</div><h3><span data-l="vi">Xuất đủ kiểu</span><span data-l="en">Flexible exports</span></h3><p><span data-l="vi">CSV, Excel, PDF; bảng điểm theo bài hoặc theo lớp.</span><span data-l="en">CSV, Excel, PDF; score tables per test or per class.</span></p></div>
+    <div class="card reveal"><div class="ic">🧹</div><h3><span data-l="vi">Dọn dẹp dễ dàng</span><span data-l="en">Easy clean-up</span></h3><p><span data-l="vi">Lưu trữ bài cũ, xóa toàn bộ dữ liệu bằng một lần xác nhận.</span><span data-l="en">Archive old tests, wipe everything with one confirmation.</span></p></div>
+    <div class="card reveal"><div class="ic">🛡️</div><h3><span data-l="vi">Nhật ký không chứa tên</span><span data-l="en">Logs without names</span></h3><p><span data-l="vi">Nhật ký chẩn đoán không bao giờ ghi tên hay mã sinh viên.</span><span data-l="en">Diagnostic logs never record student names or IDs.</span></p></div>
   </div>
 </div></section>
 
-<section id="start" class="alt"><div class="wrap">
+<section id="start"><div class="wrap">
   <h2><span data-l="vi">Bắt đầu trong 3 bước</span><span data-l="en">Get started in 3 steps</span></h2>
   <p class="sub"><span data-l="vi">Lần đầu mở app sẽ có hướng dẫn nhanh; xem lại ở Cài đặt › Xem hướng dẫn sử dụng.</span><span data-l="en">A quick guide appears on first launch; replay it in Settings › View user guide.</span></p>
-  <ol class="steps">
-    <li><b><span data-l="vi">Tạo bài kiểm tra &amp; in phiếu</span><span data-l="en">Create a test &amp; print sheets</span></b><br><span data-l="vi">Chọn số câu và kiểu câu hỏi, rồi in phiếu.</span><span data-l="en">Choose the number of questions and their type, then print the sheets.</span></li>
-    <li><b><span data-l="vi">Nhập đáp án</span><span data-l="en">Enter the answer key</span></b><br><span data-l="vi">Trong tab Bài kiểm tra › chọn bài › Đáp án, hoặc dùng một bài làm mẫu.</span><span data-l="en">In the Tests tab › pick a test › Answer key, or use a sample sheet.</span></li>
-    <li><b><span data-l="vi">Quét và xem điểm</span><span data-l="en">Scan and see scores</span></b><br><span data-l="vi">Đặt phiếu phẳng, đủ sáng, thấy rõ cả 4 góc. Điểm hiện ngay và tự lưu.</span><span data-l="en">Keep the sheet flat, well lit, all 4 corners visible. The score appears at once and is saved.</span></li>
+  <ol class="steps3">
+    <li class="reveal"><div class="mini"><img src="shots/exams.png" width="1080" height="2340" alt="" loading="lazy"></div><b><span data-l="vi">Tạo bài &amp; in phiếu</span><span data-l="en">Create &amp; print</span></b><span><span data-l="vi">Chọn số câu và kiểu câu hỏi, in phiếu.</span><span data-l="en">Pick the number of questions and types, print the sheets.</span></span></li>
+    <li class="reveal"><div class="mini"><img src="shots/review.png" width="1080" height="2340" alt="" loading="lazy"></div><b><span data-l="vi">Nhập đáp án</span><span data-l="en">Set the key</span></b><span><span data-l="vi">Bài kiểm tra › chọn bài › Đáp án.</span><span data-l="en">Tests › pick a test › Answer key.</span></span></li>
+    <li class="reveal"><div class="mini"><img src="shots/scan.png" width="1080" height="2340" alt="" loading="lazy"></div><b><span data-l="vi">Quét và xem điểm</span><span data-l="en">Scan and see scores</span></b><span><span data-l="vi">Đặt phiếu phẳng, đủ sáng, thấy 4 góc.</span><span data-l="en">Flat sheet, good light, all 4 corners visible.</span></span></li>
   </ol>
 </div></section>
 
-<section id="faq"><div class="wrap">
+<section class="privacy"><div class="wrap">
+  <h2><span data-l="vi">Dữ liệu của bạn, trên máy của bạn</span><span data-l="en">Your data, on your device</span></h2>
+  <p class="sub"><span data-l="vi">Danh sách sinh viên và điểm số là thông tin nhạy cảm. Markly không có máy chủ nào để gửi chúng đi.</span><span data-l="en">Student lists and scores are sensitive. Markly has no server to send them to.</span></p>
+  <div class="grid">
+    <div class="pcard"><b><span data-l="vi">Không tài khoản</span><span data-l="en">No account</span></b><span><span data-l="vi">Mở app là dùng được.</span><span data-l="en">Open the app and go.</span></span></div>
+    <div class="pcard"><b><span data-l="vi">Không theo dõi</span><span data-l="en">No tracking</span></b><span><span data-l="vi">Không analytics, không quảng cáo.</span><span data-l="en">No analytics, no ads.</span></span></div>
+    <div class="pcard"><b><span data-l="vi">Ảnh ở lại trên máy</span><span data-l="en">Images stay put</span></b><span><span data-l="vi">Camera chỉ dùng để đọc phiếu.</span><span data-l="en">The camera is only used to read sheets.</span></span></div>
+  </div>
+  <p style="margin-top:22px"><a href="privacy.html"><span data-l="vi">Đọc chính sách quyền riêng tư →</span><span data-l="en">Read the privacy policy →</span></a></p>
+</div></section>
+
+<section id="faq" class="alt"><div class="wrap">
   <h2>FAQ</h2>
   <details><summary><span data-l="vi">Cần kết nối internet không?</span><span data-l="en">Does it need an internet connection?</span></summary><p><span data-l="vi">Không. Mọi xử lý diễn ra trên thiết bị. Web quản trị (tùy chọn) chỉ hoạt động trong mạng WiFi nội bộ.</span><span data-l="en">No. Everything is processed on the device. The optional web admin only works on your local WiFi.</span></p></details>
   <details><summary><span data-l="vi">Dữ liệu của tôi được lưu ở đâu?</span><span data-l="en">Where is my data stored?</span></summary><p><span data-l="vi">Chỉ trong bộ nhớ riêng của ứng dụng trên thiết bị. Hãy dùng Cài đặt › Sao lưu &amp; khôi phục để lưu bản sao có mật khẩu.</span><span data-l="en">Only in the app's private storage on your device. Use Settings › Backup &amp; restore for a password-protected copy.</span></p></details>
@@ -71,5 +163,6 @@
   <span>© Markly</span>
   <span><a href="support.html"><span data-l="vi">Hỗ trợ</span><span data-l="en">Support</span></a> · <a href="privacy.html"><span data-l="vi">Quyền riêng tư</span><span data-l="en">Privacy</span></a> · <a href="https://github.com/mvmanh/markly-app/issues">GitHub</a></span>
 </div></footer>
+<script src="site.js" defer></script>
 </body>
 </html>
